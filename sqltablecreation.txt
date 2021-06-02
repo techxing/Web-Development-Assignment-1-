@@ -1,0 +1,7 @@
+$sql= "CREATE TABLE poststatus(
+  Status_Code VARCHAR (5) NOT NULL PRIMARY KEY,
+  Status VARCHAR (140) NOT NULL,
+  Share VARCHAR (10),
+  Dates VARCHAR (10)NOT NULL,
+  Permission VARCHAR (10)
+)";
